@@ -90,3 +90,26 @@ button {
         flex: 1;
     }
 }
+
+@media screen and (max-width: 450px) {
+    main h1 {
+        font-size: 20px;
+    }
+
+    main textarea {
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    .row {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    select {
+        flex: 1;
+    }
+}
