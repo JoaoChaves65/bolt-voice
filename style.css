@@ -93,6 +93,29 @@ button {
 
 @media screen and (max-width: 450px) {
     main h1 {
+        font-size: 22px;
+    }
+
+    main textarea {
+        width: 350px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    .row {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    select {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main h1 {
         font-size: 20px;
     }
 
